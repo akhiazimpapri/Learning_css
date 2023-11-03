@@ -1,3 +1,16 @@
+body {
+    background-color: rgb(184, 148, 148);
+}
+
 h1 {
-color : red;
+color : rgb(128, 68, 0);
+}
+
+p {
+    color: rgb(97, 42, 165);
+}
+
+button {
+    color: antiquewhite;
+    background-color: cornflowerblue;
 }
