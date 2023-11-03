@@ -14,3 +14,7 @@ button {
     color: antiquewhite;
     background-color: cornflowerblue;
 }
+
+* { /*This is used to color all the document. This is called universal selecter.*/
+    color: pink;
+}
