@@ -2,4 +2,10 @@ p {
     text-align: center;
 
 }
-/*text alines are left,right,center,start,end.
+
+h1 {
+    text-align: center;
+    text-decoration: underline; /*for underling a text.*/
+    text-decoration: overline; /*for overlining a text*/
+    text-decoration: line-through; /*same as delete tag*/
+}
