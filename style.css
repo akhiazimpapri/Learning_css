@@ -1,18 +1,23 @@
-p {
-    text-align: center;
-
+#one {
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
 }
 
-#h4 {
-    font-weight: 900;
+#two {
+    font-size: 15px;
+    text-transform: capitalize; /*first letter of every word will be capital.*/
 }
 
-#par1 {
-    font-family:Arial, Helvetica, sans-serif;
-}
+/* Absolute units:
+    pixels(px)
+        96px = 1 inch = 2.52 cm.
+ */
 
-#par2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-/* font-family is equal to font-name.
+ /* line-height:
+    ... how much space a individual line takes.
+ */
+
+ /* text-transform: uppercase/lowercase /capitalize /none.
+      
  */
