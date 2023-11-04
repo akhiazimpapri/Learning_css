@@ -5,7 +5,24 @@ p {
 
 h1 {
     text-align: center;
-    text-decoration: underline; /*for underling a text.*/
-    text-decoration: overline; /*for overlining a text*/
-    text-decoration: line-through; /*same as delete tag*/
 }
+
+#h1 {
+    font-weight: 100;
+}
+
+#h2 {
+    font-weight: 300;
+}
+
+#h3 {
+    font-weight: 550;
+}
+
+#h4 {
+    font-weight: 900;
+}
+/* font-weight is used to manage transperency of text.
+  font weight : normal/bold/bolder/lighter.
+font weight : 100-900.
+bold = 400*/
