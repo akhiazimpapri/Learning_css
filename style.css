@@ -1,16 +1,37 @@
-*{  /*univertial selector.*/
-    font-family: 'Times New Roman', Times, serif;
-}
-#main {
-    text-align: center;
-    text-transform: capitalize;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-#outer {
-        font-size: 25px; 
+div {
+    height: 100px; 
+    background-color: pink;
+    width: 100px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: brown;
 }
 
-#inner {
-    font-size: 10px;
+#div {
+    border: 2px dotted green ; /*sorthand application.*/
+    background-color: blanchedalmond;
+    border-radius: 10px;
 }
+
+h1 {
+    text-align: center; /* heading will go in the center of height ana width.  */
+    height: 50px;
+    width: 200px;
+    background-color:aqua ;
+    border-width: 5px;
+    border-style: double;
+    border-color: chocolate;
+}
+
+/* border-width : 2px;
+   border-style : solid/dotted/dashed/double;
+   border-color : black;
+
+   border shorthand:  (is used to write the above three properties in short in one tag.)
+        border: 2px solid black.
+
+    border-radious : is used to make the border corner circle.
+
+    ****for making a circle into a website first we have to creat a box with same hight and weight 
+    and than we have to make the border-radius 50%.
+*/
