@@ -1,23 +1,16 @@
-#one {
-    font-size: 20px;
-    line-height: 25px;
-    text-transform: uppercase;
+*{  /*univertial selector.*/
+    font-family: 'Times New Roman', Times, serif;
+}
+#main {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-#two {
-    font-size: 15px;
-    text-transform: capitalize; /*first letter of every word will be capital.*/
+#outer {
+        font-size: 25px; 
 }
 
-/* Absolute units:
-    pixels(px)
-        96px = 1 inch = 2.52 cm.
- */
-
- /* line-height:
-    ... how much space a individual line takes.
- */
-
- /* text-transform: uppercase/lowercase /capitalize /none.
-      
- */
+#inner {
+    font-size: 10px;
+}
