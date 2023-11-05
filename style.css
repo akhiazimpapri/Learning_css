@@ -5,12 +5,14 @@ div {
     border-width: 3px;
     border-style: solid;
     border-color: brown;
+    padding-left: 20px;
 }
 
 #div {
-    border: 2px dotted green ; /*sorthand application.*/
+    border: 2px dotted green ; /*sorthand application for border.*/
     background-color: blanchedalmond;
     border-radius: 10px;
+    padding: 20px; /* It will set 20px in the four direction.*/
 }
 
 h1 {
@@ -21,17 +23,17 @@ h1 {
     border-width: 5px;
     border-style: double;
     border-color: chocolate;
+    padding: 1px 2px 3px 4px; /*sorthand application for padding.*/
 }
 
-/* border-width : 2px;
-   border-style : solid/dotted/dashed/double;
-   border-color : black;
+/* 
+padding--
+  space between content and border.
+    pading-left,
+    padding-right,
+    padding-top,
+    padding-bottom. 
 
-   border shorthand:  (is used to write the above three properties in short in one tag.)
-        border: 2px solid black.
-
-    border-radious : is used to make the border corner circle.
-
-    ****for making a circle into a website first we have to creat a box with same hight and weight 
-    and than we have to make the border-radius 50%.
+padding shorthand:
+    padding: top right bottom left.
 */
