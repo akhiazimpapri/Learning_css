@@ -1,33 +1,31 @@
-* {
-    padding: 0;
-    margin: 0;
-    color: white;
+* #div0 {
+    background-color: pink;
+    display: inline;
+}
+button {
+    display: block;
 }
 
-#circle {
+.box {
+    background-color: orange;
     height: 100px;
     width: 100px;
-    background-color: green;
-    border-style: solid;
-    border-radius: 50%;
+    margin: 25px ;
+    padding: 25px;
+    display: inline-block;
 }
 
-#bar {
-    height: 60px;
-    background-color: #0f1111;
-
+#box2 {
+    display: none;
 }
+/* Display property:
+    inline,
+    block - take full space available in width,
+    inline-block - similar to inline but we can set margin and padding,
+    none - to remove element from document flow.
+*/
 
-button {
-    background-color: #f08804;
-}
-
-#ama {
-    color: coral;
-    font-size: 25px;
-}
-
-a {
-    margin-right: 250px;
-    text-decoration: none;
-}
+/* visibility :
+    visibility:none;
+    It is also as display: none. But it has some different between them.
+     
