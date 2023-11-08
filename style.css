@@ -1,25 +1,70 @@
-#div1 {
-    height: 200px;
-    width: 200px;
-    background-color: green;
-    font-size: 10px;
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
 }
 
-#div2 {
-    height: 50px;
-    width: 30%;
+#box1 {
     background-color: red;
-    margin-left: 10%;
-    font-size: 2em;
-    width: 5em; /* 5 times of own font size not parent.*/
+    position : static;
 }
 
-/* Relative units:
-    % - Used to define a size as relative to an element's parent object. 
-        width : 33%
-    em : 1em = same size as parent, 2em = 2 * same size as parent.
-    rem(root em) : font size of root element like body or html etc.
+#box2 {
+    background-color: green;
+    position: relative; 
+    top: 20px;
+    left: 10px;
+}
 
-    vh : relative to 1% viewport(browser) height.
-    vw : relative to 1% viewport(browser) width.
+#box3 {
+    position: absolute;  /*position will change relating to body tag ,because here body tag is the parent of box3.*/
+    top: 4000px;
+    left: 20px;
+}
+
+#box4 {
+    background-color: pink;
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+}
+#box5 {
+    background-color: pink;
+    position: fixed; /*position will always fixed*/
+    right: 10px;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+#box6 {
+    position: sticky;  /*It will fixed when box6 will come.*/
+    top: 50px;
+    left: 50px;
+}
+
+/* 
+position - how a element is positioned in a document.
+    position : static / relative / absolute / fixed.
+
+    static - default position (The top, right, bottom, left and z-index properties have no effect).
+    relative - element is relative to itself.(The top, right, bottom, left and z-index will work).
+    absolute - positioned relative to its closest ancestor(parents).(removed from the flow)
+    fixed - positioned relative to browser.(removed from the flow)
+    sticky - positioned based on user's scroll position.
+
 */ 
+
+/* 
+    Z-index: It decides the stack level of elements.
+        Overlapping elements will a large z-index cover those with a smaller one.
+        z-index : auto(0)
+        z-index : 1/2/....
+        z-index : -1/-2/... 
+
+        ****it controls the overlaping of div.
+*/
