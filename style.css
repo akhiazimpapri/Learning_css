@@ -1,31 +1,9 @@
 div {
     height: 100px;
     width: 100px;
-    background-color: aqua;
-    border: 2px solid black;
-    display: inline-block;
-}
-
-#box1 {
-    background-image: url(img/cat_photo.jpg);
+    background-image: url(img/nature_photo.jpg);
     background-size: cover;
+    position: fixed;
+    right: 0px;
+    top: 20px;
 }
-
-#box2 {
-    background-color: green;
-}
-
-
-#box4 {
-    background-color: pink;
-    
-}
-
-
-/* 
-    background-size : cover / contain / auto
-
-    cover - no empty space.
-    contain - 
-    auto - 
-*/
