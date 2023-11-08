@@ -1,49 +1,25 @@
-header {
-    height: 60px;
-    background-color: #0f1111;
-
-}
-
-a {
-    margin-right: 240px;
-    text-decoration: none;
-    color: white;
-}
-
-button {
-    background-color: #f08804;
-}    
-#ama {
-    color: coral;
-    font-size: 25px;
-}
-
-#content {
-    height: 720px;
-}
-
-.contentbox {
-    height: 100px;
-    width: 100px;
-    border: 3px solid black;
-    display: inline-block;
-}
-
 #div1 {
-    
-    background-color: rgba(90 , 180, 150, 0.5);
-}
-#div {
-   
-    background-color: rgba(200, 225, 90, 0.5);
-}
-#div3 {
-   
-    background-color: rgba(50 , 220 , 50, 0.5);
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
 }
 
-footer {
-    background-color: #0f1111;
-    color: white;
-    text-align: center;
+#div2 {
+    height: 50px;
+    width: 30%;
+    background-color: red;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5em; /* 5 times of own font size not parent.*/
 }
+
+/* Relative units:
+    % - Used to define a size as relative to an element's parent object. 
+        width : 33%
+    em : 1em = same size as parent, 2em = 2 * same size as parent.
+    rem(root em) : font size of root element like body or html etc.
+
+    vh : relative to 1% viewport(browser) height.
+    vw : relative to 1% viewport(browser) width.
+*/ 
