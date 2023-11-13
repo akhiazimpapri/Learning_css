@@ -1,9 +1,49 @@
-div {
-    height: 100px;
-    width: 100px;
-    background-image: url(img/nature_photo.jpg);
-    background-size: cover;
-    position: fixed;
-    right: 0px;
-    top: 20px;
+body {
+    text-align: center;
 }
+div {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#container {
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color: pink;
+}
+#box3 {
+    background-color: goldenrod;
+}
+#box4 {
+    background-color: rgba(225, 00, 00, .7);
+}
+#box5 {
+    background-color: rgba(00 , 00 , 225 , .7);
+}
+
+
+/* Flexbox(Flexible Box Layout): It is a one dimentional layout method fot arrenging items in rows or columns.
+
+    The Flax Model - flex container, main axis, cross axis, flex item.
+
+    Flexbox Direction: It sets how flex items are placed in the flex container,along which axis ana direction.
+        is used on container ,not for items.
+     1. flex-direction : row;(default) - left to right.
+     2. flex-direction : row-revrtse; - right to left.
+     3. flex-direction : column; - up to down.
+     4. flex-direction : column-reverse; - down to up.
+
+     *** a useful property of flexbox is it try to fit all the contain into the div.
+*/ 
+
