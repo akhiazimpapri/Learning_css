@@ -9,6 +9,25 @@ a{
     color: red;
 }
 
-li {
+li{
     list-style-type: none;
+}
+
+#out {
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    border: 2px,solid,green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#in {
+    height: 120px;
+    width: 120px;
+    background-color: red;
+    border: 2px,solid,red;
+    border-radius: 50%;
 }
