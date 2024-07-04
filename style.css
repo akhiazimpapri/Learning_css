@@ -2,18 +2,20 @@ body {
     text-align: center;
 }
 div {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 150px;
     border: 2px solid black;
     display: inline-block;
 }
 
 #container {
-    height: 200px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+    align-content: center ;
 }
 
 #box1 {
@@ -21,9 +23,11 @@ div {
 }
 #box2 {
     background-color: pink;
+    height: 200px;
 }
 #box3 {
     background-color: goldenrod;
+    height: 75px;
 }
 #box4 {
     background-color: rgba(225, 00, 00, .7);
@@ -33,17 +37,27 @@ div {
 }
 
 
-/* Flexbox(Flexible Box Layout): It is a one dimentional layout method fot arrenging items in rows or columns.
+/*
+* Flex Properties for Flex Container : 
+    justify-contain: flex-start / flex-end / center / space-evenly /space-between
+        (alignment along the main axis.)
+        flex-start : contains begin from start.
+        flex-end : contains begin from end.
+        flex center : contains will arange in the center.
+        space-around : contains will spread through the whole container and there will same space brtween each containt. But the start and ending space is half than oeher.
+        space -between : contains will spread through the whole container and there will same space brtween each containt.
+        space -evenly : same as space -between.
+    flex-wrap: nowrap / wrap / wrap-reverse.
+    align-item: alignment along the cross axis.
+    align-enter: alignment of space between & around the contain along cross-axis.
+        (center/flex-start/flex-end)
+*/
 
-    The Flax Model - flex container, main axis, cross axis, flex item.
-
-    Flexbox Direction: It sets how flex items are placed in the flex container,along which axis ana direction.
-        is used on container ,not for items.
-     1. flex-direction : row;(default) - left to right.
-     2. flex-direction : row-revrtse; - right to left.
-     3. flex-direction : column; - up to down.
-     4. flex-direction : column-reverse; - down to up.
-
-     *** a useful property of flexbox is it try to fit all the contain into the div.
-*/ 
-
+/*
+align-self : alignment of individual along the cross axis.
+    (center/flex-start/flex-end)
+flex-grow : how much a flex item will grow relative to the rest of the flex item if space is available.
+    (it will happen in the factor of 1)
+flex-shrink : how much a flex item will shrink relative to the rest of the flex item if space is available.
+    (it will happen in the factor of 2)
+*/
