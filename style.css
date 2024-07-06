@@ -1,39 +1,20 @@
-div {
-    height: 100px;
-    width: 100px;
-    background-color: aquamarine;
-    border: 2px,solid,black;
+.loader {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
     position: absolute;
-    top: 100px;
-    left: 100px;
-    /*animation-name: colorAnimate;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    *animation-direction: reverse;
-    animation-duration: alternate-reverse;
-    animation-direction: alternate;*/
-    
-    animation: colorAnimate 2s ease-in 1s infinite alternate;
-
+    top: 200px;
+    left: 200px;
+    border: 10px solid rgb(213, 204, 205);
+    border-top: 10px solid hsl(0, 64%, 4%);
+    animation: spinAnimate 1s ease-in-out 0s infinite normal;
 }
 
-/* Animation shorthand --- animation: name| duration |timing-function |delay |iteration-count| direction |fill-mode;*/
-@keyframes colorAnimate {
+@keyframes spinAnimate {
     from {
-        left: 0px;
-        background-color: aquamarine;
-        color: black;
+        transform: rotate(0deg);
     }
     to {
-        right: 400px;
-        background-color: red;
-        color: white;
+        transform: rotate(360deg);
     }
-}
-
-div:hover{
-    
 }
