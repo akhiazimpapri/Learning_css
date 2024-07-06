@@ -3,18 +3,27 @@ div {
     width: 100px;
     background-color: aquamarine;
     border: 2px,solid,black;
-    /*transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: ease-in;
-    transition-delay: 1s*/
-    transition: all 2s ease-in 1s; /*short hand*/
+    position: absolute;
+    top: 100px;
+    left: 100px;
+   /* transform: rotate(45deg);*/
+   /*transform: scale(2);*/
+   /*transform: scale(1,2); /*(X,Y)*/
+   transition: all 2s ease-in ;
    
 }
+
+/*scale - increasing or decrising size*/
 
 div:hover{
     background-color: red;
     color: white;
     font-size: 20px;
+    /*transform: scale(3,2);*/
+    /*transform: rotate(180deg);
+    transform: translate(100px);
+    transform: translate(100px,100px);*/
+    transform: skew(180deg);
 }
 div:active{
     background-color: pink;
